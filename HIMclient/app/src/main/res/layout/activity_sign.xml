@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_weight="0.9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="스윙스"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            />
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/black"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:src="@drawable/smashing" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:src="@drawable/smashingdetail" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="안녕하세요. 경북대학교 배드민턴 동아리 스윙스(Swings)입니다.
+
+매주 월,수,금 저녁 6시부터 9시까지 제2체육관에서 진행하고 있으며 참가여부는 자유입니다!
+
+배드민턴 동아리라고 잘하는 사람만 있는게 아니라 잘하는 사람 못하는 사람 다 있으니 부담없이 들어오셔서 같이 운동을 즐기시면 됩니다.
+
+매 학기마다 대회에도 참가를 하고 있으며 동아리내의 자체대회와 타 대학과의 교류전 또한 진행되고 있습니다.
+
+저희 스윙스는 학번제한없이 나이제로 운영중인 동아리이므로 배드민턴에 관심있는 학우 여러분의 많은 관심 부탁드립니다.
+" />
+
+
+        </LinearLayout>
+    </ScrollView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/black"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/btn_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:text="가입하기"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
