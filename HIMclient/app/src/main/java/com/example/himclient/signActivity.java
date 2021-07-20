@@ -31,7 +31,7 @@ public class signActivity extends AppCompatActivity {
                     sign = false;
                 }
                 else {
-                    btn_sign.setText("가입하기");
+                    btn_sign.setText("가입신청");
                     btn_sign.setBackgroundColor(Color.parseColor("#f1243f"));
                     sign = true;
                 }
