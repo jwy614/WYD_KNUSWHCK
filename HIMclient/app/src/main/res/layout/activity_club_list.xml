@@ -61,7 +61,7 @@
                     <TextView
                         android:layout_width="150dp"
                         android:layout_height="wrap_content"
-                        android:text="동아리 이름"
+                        android:text="터프시커리"
                         android:gravity="center"/>
                 </LinearLayout>
                     <LinearLayout
@@ -101,7 +101,7 @@
                         <TextView
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
-                            android:text="동아리 이름"
+                            android:text="익스프레션"
                             android:gravity="center"/>
                     </LinearLayout>
                     <LinearLayout
@@ -183,7 +183,7 @@
                         <TextView
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
-                            android:text="동아리 이름"
+                            android:text="토레스"
                             android:gravity="center"/>
                     </LinearLayout>
                     <LinearLayout
@@ -223,7 +223,7 @@
                         <TextView
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
-                            android:text="동아리 이름"
+                            android:text="POW"
                             android:gravity="center"/>
                     </LinearLayout>
                     <LinearLayout
@@ -263,7 +263,7 @@
                         <TextView
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
-                            android:text="동아리 이름"
+                            android:text="꿈틀"
                             android:gravity="center"/>
                     </LinearLayout>
                     <LinearLayout
@@ -303,7 +303,7 @@
                         <TextView
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
-                            android:text="동아리 이름"
+                            android:text="경묵회"
                             android:gravity="center"/>
                     </LinearLayout>
                     <LinearLayout
@@ -343,7 +343,7 @@
                         <TextView
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
-                            android:text="동아리 이름"
+                            android:text="사우회"
                             android:gravity="center"/>
                     </LinearLayout>
                     <LinearLayout
@@ -383,7 +383,7 @@
                         <TextView
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
-                            android:text="동아리 이름"
+                            android:text="쓰담"
                             android:gravity="center"/>
                     </LinearLayout>
                     <LinearLayout
@@ -423,7 +423,7 @@
                         <TextView
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
-                            android:text="동아리 이름"
+                            android:text="요리조리"
                             android:gravity="center"/>
                     </LinearLayout>
                     <LinearLayout
@@ -463,7 +463,7 @@
                         <TextView
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
-                            android:text="동아리 이름"
+                            android:text="팔레트"
                             android:gravity="center"/>
                     </LinearLayout>
                     <LinearLayout
@@ -503,7 +503,7 @@
                         <TextView
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
-                            android:text="동아리 이름"
+                            android:text="농악반"
                             android:gravity="center"/>
                     </LinearLayout>
                     <LinearLayout
@@ -543,7 +543,7 @@
                         <TextView
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
-                            android:text="동아리 이름"
+                            android:text="일렉스"
                             android:gravity="center"/>
                     </LinearLayout>
                     <LinearLayout
