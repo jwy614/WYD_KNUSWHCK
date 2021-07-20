@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="100dp"
+      android:layout_marginTop="30dp"
+      android:text="모임 공지"
+      android:textColor="#000000"
+      android:textSize="50sp" />
+
+  <TextView
+      android:id="@+id/Content"
+      android:layout_width="357dp"
+      android:layout_height="219dp"
+      android:layout_marginLeft="30dp"
+      android:layout_marginTop="50dp"
+      android:text="2021년 07월 28일 10:00시 일청담에서 모임 있습니다."
+      android:textColor="#000000" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="100dp"
+      android:text="댓글"
+      android:textColor="#000000"
+      android:textSize="25sp" />
+
+  <TextView
+      android:id="@+id/Comment"
+      android:layout_width="320dp"
+      android:layout_height="133dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="10dp"
+      android:text="이동우 : 네이스\n정원영 : 내이스\n이건형 : 뇌이스\n류진호 : 느이스"
+      android:textColor="#000000" />
+
+  <EditText
+      android:id="@+id/InputComment"
+      android:layout_width="271dp"
+      android:layout_height="44dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="30dp"
+      android:hint="댓글을 입력하세요" />
+
+  <Button
+      android:id="@+id/CommentButton"
+      android:layout_width="61dp"
+      android:layout_height="50dp"
+      android:layout_marginLeft="300dp"
+      android:layout_marginTop="-50dp"
+      android:text="쓰기"/>
+
+
+</LinearLayout>
