@@ -27,12 +27,12 @@ public class signActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if(sign) {
                     btn_sign.setText("가입취소");
-                    btn_sign.setBackgroundColor(Color.parseColor("#f1243f"));
+                    btn_sign.setBackgroundColor(Color.parseColor("#A566FF"));
                     sign = false;
                 }
                 else {
                     btn_sign.setText("가입하기");
-                    btn_sign.setBackgroundColor(Color.parseColor("#A566FF"));
+                    btn_sign.setBackgroundColor(Color.parseColor("#f1243f"));
                     sign = true;
                 }
             }
