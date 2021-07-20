@@ -8,7 +8,7 @@
 
 
     <EditText
-        android:id="@+id/sourceText"
+        android:id="@+id/IdText"
         android:layout_width="215dp"
         android:layout_height="46dp"
         android:ems="10"
@@ -30,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sourceText" />
+        app:layout_constraintTop_toBottomOf="@+id/IdText" />
 
     <Button
         android:id="@+id/LoginButton"
