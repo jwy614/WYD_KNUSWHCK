@@ -11,7 +11,6 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_gravity="center"
-      android:layout_marginTop="30dp"
       android:text="모임 공지"
       android:textColor="#000000"
       android:textSize="50sp" />
@@ -25,7 +24,7 @@
       android:layout_width="357dp"
       android:layout_height="219dp"
       android:layout_gravity="center"
-      android:layout_marginTop="50dp"
+      android:layout_marginTop="10dp"
       android:text="2021년 07월 28일 10:00시 일청담에서 모임 있습니다."
       android:textColor="#000000" />
 
@@ -33,7 +32,7 @@
   <View
       android:layout_width="match_parent"
       android:layout_height="2px"
-      android:layout_marginTop="100dp"
+      android:layout_marginTop="10dp"
       android:background="@color/black"/>
   <TextView
       android:layout_width="wrap_content"

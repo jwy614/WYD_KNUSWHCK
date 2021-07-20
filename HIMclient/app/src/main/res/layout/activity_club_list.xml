@@ -141,7 +141,7 @@
                         <TextView
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
-                            android:text="동아리 이름"
+                            android:text="스윙스"
                             android:gravity="center"/>
                     </LinearLayout>
                     <LinearLayout
@@ -150,10 +150,12 @@
                         android:layout_gravity="center_vertical"
                         android:layout_marginTop="8dp">
                         <Button
+                            android:id="@+id/btn_notice"
                             android:layout_width="70dp"
                             android:layout_height="60dp"
                             android:text="공지"/>
                         <Button
+                            android:id="@+id/btn_sign"
                             android:layout_width="80dp"
                             android:layout_height="60dp"
                             android:text="신청"/>

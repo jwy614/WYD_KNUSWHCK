@@ -1,5 +1,6 @@
 package com.example.himclient;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -45,6 +46,14 @@ public class noticeActivity extends AppCompatActivity {
         notices.add("2021/07/25 중요사항 공지");
         notices.add("2021/07/25 신규부원 모집11");
         adapter.notifyDataSetChanged();
+
+        lv_notice.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Intent intent = new Intent(getApplicationContext(),NoticeDetail.class);
+                startActivity(intent);
+            }
+        });
 
 
 
